@@ -12,6 +12,7 @@ function fetchPosts() {
         });
 }
 
+
 function fetchUserDetails() {
     fetch("/users/" + localStorage.user)
         .then((res) => res.json())
